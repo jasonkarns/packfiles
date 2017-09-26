@@ -1,6 +1,6 @@
 {
   "name": "packfiles",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "npm goggles: see what files npm sees",
   "author": "Jason Karns <jason.karns@gmail.com> (http://jason.karns.name/)",
   "license": "MIT",
