@@ -17,7 +17,8 @@
   "scripts": {
     "start": "$npm_package_bin_packfiles",
     "test": "test \"$($npm_package_bin_packfiles)\" = \"package.json\nindex.js\"",
-    "lint": "standard"
+    "lint": "standard",
+    "postversion": "npm publish && git push --follow-tags"
   },
   "dependencies": {
     "npm-packlist": "^1.1.9"
