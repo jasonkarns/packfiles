@@ -1,0 +1,11 @@
+{
+  "name": "npm-packlist-cli",
+  "version": "0.0.0",
+  "description": "npm goggles: see what files npm sees",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Karns <jason.karns@gmail.com> (http://jason.karns.name/)",
+  "license": "MIT"
+}
