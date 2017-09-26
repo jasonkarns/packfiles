@@ -1,11 +1,35 @@
 {
-  "name": "npm-packlist-cli",
+  "name": "packfiles",
   "version": "0.0.0",
   "description": "npm goggles: see what files npm sees",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Jason Karns <jason.karns@gmail.com> (http://jason.karns.name/)",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://github.com/jasonkarns/packfiles#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonkarns/packfiles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jasonkarns/packfiles/issues"
+  },
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "$npm_package_bin_packfiles",
+    "test": "test \"$($npm_package_bin_packfiles)\" = \"package.json\nindex.js\"",
+    "lint": "standard"
+  },
+  "dependencies": {
+    "npm-packlist": "^1.1.9"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "keywords": [
+    "npm",
+    "pack",
+    "files",
+    "list",
+    "tarball"
+  ]
 }
