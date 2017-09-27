@@ -2,6 +2,8 @@
 
 npm goggles for your package: see what files npm sees &ndash; tiny cli utility to list the files npm will include in its published tarball.
 
+Tired of running `npm pack` just so you can `tar -tf <your-package>.tgz` to see the files included in the tarball? No longer!
+
 ## usage
 
 Simplest usage is via `npx`:
