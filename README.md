@@ -4,6 +4,15 @@ npm goggles for your package: see what files npm sees &ndash; tiny cli utility t
 
 Tired of running `npm pack` just so you can `tar -tf <your-package>.tgz` to see the files included in the tarball? No longer!
 
+## installation
+
+Install locally as a devDependency and run through an npm script or via npx:
+
+```
+$ npm install -D packfiles
+$ npx packfiles
+```
+
 ## usage
 
 Simplest usage is via `npx`:
@@ -57,15 +66,6 @@ plugins/tap13/index.js
 plugins/timeout.js
 plugins/uncaught-exception.js
 </pre></code></details>
-
-## installation
-
-Install locally as a devDependency and run through an npm script or via npx:
-
-```
-$ npm install -D packfiles
-$ npx packfiles
-```
 
 ## how it works
 
