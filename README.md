@@ -16,9 +16,9 @@ But beware that you likely need to run `npm run prepare` before packfiles such t
 
 ### example
 
-From within [teenytest](https://github.com/testdouble/teenytest):
-
-<details><code><pre>
+<details>
+<summary>From within <a href="https://github.com/testdouble/teenytest">teenytest</a>:</summary>
+<code><pre>
 $ packfiles
 package.json
 .travis.yml
