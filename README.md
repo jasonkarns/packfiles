@@ -1,6 +1,6 @@
 # packfiles
 
-A tiny cli utility to list the files npm will include in its published tarball.
+npm goggles for your package: see what files npm sees &ndash; tiny cli utility to list the files npm will include in its published tarball.
 
 ## usage
 
