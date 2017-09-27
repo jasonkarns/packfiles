@@ -14,6 +14,50 @@ $ npx packfiles
 
 But beware that you likely need to run `npm run prepare` before packfiles such that you get an accurate view of the files that will exist during an npm publish flow.
 
+### example
+
+From within [teenytest](https://github.com/testdouble/teenytest):
+
+<details><code><pre>
+$ packfiles
+package.json
+.travis.yml
+index.js
+LICENSE.txt
+README.md
+bin/teenytest
+lib/cli/argv-options.js
+lib/cli/index.js
+lib/cli/parse-package-options.js
+lib/configure/criteria.js
+lib/configure/defaults.js
+lib/configure/index.js
+lib/plan/index.js
+lib/plugins/callbackify.js
+lib/plugins/store.js
+lib/plugins/user-function-store.js
+lib/plugins/wrap.js
+lib/prepare/helper.js
+lib/prepare/index.js
+lib/prepare/modules/compact.js
+lib/prepare/modules/filter.js
+lib/prepare/modules/index.js
+lib/prepare/modules/load.js
+lib/run/double-resolve.js
+lib/run/index.js
+lib/run/register-built-in-plugins.js
+lib/run/register-user-plugins.js
+lib/run/results-store.js
+lib/run/run-custom-configurator.js
+lib/store.js
+plugins/results.js
+plugins/tap13/builder.js
+plugins/tap13/count-tests.js
+plugins/tap13/index.js
+plugins/timeout.js
+plugins/uncaught-exception.js
+</pre></code></details>
+
 ## installation
 
 Install locally as a devDependency and run through an npm script or via npx:
